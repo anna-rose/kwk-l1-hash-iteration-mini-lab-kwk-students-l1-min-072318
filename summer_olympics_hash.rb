@@ -7,13 +7,13 @@ def create_olympics_hash
 }
 end
 
-def add_a_key_value_pair(cities)
+def add_a_key_value_pair
  cities[:Atlanta] = "1996"
 end
 
 puts cities 
 
-def iterate_through_hash(cities)
+def iterate_through_hash
   create_olympics_hash.each do |item, date|
     "The #{date} summer olympics took place in #{item}."
   end
